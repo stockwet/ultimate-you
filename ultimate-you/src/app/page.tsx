@@ -1,10 +1,12 @@
 // import { Hero } from "@/components/Hero";
 import { Hero } from "../components/Hero";
+import { AboutSection } from "../components/AboutSection";
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <AboutSection />
 
       {/* Below, create your other anchored sections: */}
       <section id="about" className="py-20 px-6">
